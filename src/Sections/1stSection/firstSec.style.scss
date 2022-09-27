@@ -1,0 +1,25 @@
+.firstSecImage{
+    
+    
+    width: 100%;
+    background-color: aqua;
+    background-image: url(https://www.accenture.com/t20220914T175121Z__w__/us-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/General/147/Accenture-CX-Hub-1200x400.png);
+    height: 400px;
+    background-position: right;
+    color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+
+}
+
+@media screen and (max-width:"700px") {
+    .firstSecImage{
+        height: 300px;
+       
+    }
+    
+}

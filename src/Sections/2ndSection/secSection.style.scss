@@ -1,0 +1,33 @@
+.sec2Head{
+    margin: 20px 0;
+    width: 55%;
+}
+
+.secBodyContainer{
+    display: flex;
+    width: 100%;
+    // justify-content: space-between;
+
+    .secBody1{
+        width: 50%;
+        margin-right: 25px;
+    }
+
+    .secBody2{
+        width: auto;
+        margin-left: 25px;
+        img{
+            height: 315px;
+        }
+
+        .imgCap{
+            width: 560px;
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px;
+            background-color: rgb(252, 249, 249);
+            border: 1px solid rgb(216, 216, 216);
+            
+        }
+    }
+}

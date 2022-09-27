@@ -1,0 +1,80 @@
+.sec4fullContainer {
+    background-color: white;
+    border-top: 1px solid #f2f2f2;
+  
+    .carding{
+      display: flex;
+      
+      justify-content: center;
+      flex-wrap: wrap;
+      
+    }
+  
+  .secThreeHead{
+      margin: 30px 0;
+
+  }
+  
+    .thirdSecBody {
+      margin: 10px 40px;
+    
+      .thirdSecImg {
+        width: 340px;
+      }
+  
+      h3 {
+        margin: 15px 0 20px 0;
+      }
+  
+      h3 a {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: 23px;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+  
+      p{font-size: 17px;
+      margin: 0 0 30px 5px;}
+      .secThreeImgCap {
+        border: 1px solid rgb(214, 214, 214);
+        width: 340px;
+        height: 320px;
+        padding: 10px 20px;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+  
+        .secLinks{
+          color: black;
+          font-size: small;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          text-decoration: none;
+          border-bottom: 2px solid rgb(34, 34, 255);
+    
+          
+        }
+        .endlink{
+          text-decoration: none;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-weight: bolder;
+          font-size: large;
+          margin: 5px 5px;
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width:"767px") {
+    .carding{
+      display: block;
+    }
+    .thirdSecBody{
+ margin: 10px 40px ;
+ 
+        
+    }}
+  

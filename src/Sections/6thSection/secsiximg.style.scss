@@ -1,0 +1,21 @@
+.fullImgContainer{
+  
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    height: 900px;
+  
+    
+    background-image: url(https://www.accenture.com/t20210208T054614Z__w__/us-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/General/82/Accenture-Understanding-1600x900.jpg);
+}
+
+@media screen and (max-width:"768px") {
+    .fullImgContainer{
+        background-position:right;
+        height: 500px;
+        
+    }}

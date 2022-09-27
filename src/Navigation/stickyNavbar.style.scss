@@ -1,0 +1,38 @@
+.stickyNavContainer{
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 70px;
+    
+
+    .fixedStickyContainer{
+        display: flex;
+
+
+        button{
+            background: none;
+            border: none;
+            text-align: left;
+            font-size: smaller;
+            margin: 5px 20px;
+            
+            
+        }
+
+        button:hover{
+            border-bottom: 2px solid rgb(2, 72, 224);
+        }
+
+        .firstBtnChild{
+            flex-grow: 6;
+            width: 20%;
+            margin-left: 0;
+        }
+
+    
+    }
+}
+
+@media screen and (max-width:"1200px") {
+    .stickyNavContainer{display: none;}
+    
+}
